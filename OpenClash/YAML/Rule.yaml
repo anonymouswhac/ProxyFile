@@ -28,29 +28,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
     
-  优速通:
-
-    url: "订阅地址"  
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-    
   魄力云:
-
-    url: "订阅地址"  
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-    
-  光速云:
 
     url: "订阅地址"  
     type: http
